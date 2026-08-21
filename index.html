@@ -1,11 +1,413 @@
+```html
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-    <meta charset="utf-8">
-    <title>Teste Netlify</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Marmelab Hacker Clube</title>
+
+    <!-- Bootstrap -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background: #f8f9fa;
+        }
+
+        section {
+            padding: 90px 0;
+        }
+
+        .hero {
+            min-height: 85vh;
+            display: flex;
+            align-items: center;
+        }
+
+        .manifesto {
+            background: #212529;
+            color: white;
+        }
+
+        .qr-code {
+            max-width: 220px;
+        }
+
+        footer {
+            padding: 30px 0;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Funcionou! 🎉</h1>
-    <p>Site publicado pelo Netlify usando GitHub.</p>
+
+<!-- MENU -->
+<nav class="navbar navbar-expand-lg bg-white border-bottom sticky-top">
+    <div class="container">
+
+        <a class="navbar-brand fw-bold" href="#marmelab">
+            Marmelab
+        </a>
+
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#marmelab">Marmelab</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#quem-somos">Quem somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contribua">Contribua</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sede">Sede</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+
+
+<!-- MARMELAB -->
+<section id="marmelab" class="hero">
+    <div class="container">
+
+        <div class="row align-items-center">
+
+            <div class="col-lg-8">
+
+                <p class="text-uppercase fw-bold text-secondary">
+                    Hacker Clube · Cidade Ocidental · Goiás
+                </p>
+
+                <h1 class="display-2 fw-bold">
+                    Marmelab
+                </h1>
+
+                <p class="lead fs-3 mt-4">
+                    Um espaço para aprender, criar, compartilhar e transformar
+                    a comunidade.
+                </p>
+
+                <p class="fs-5 mt-4">
+                    O Marmelab Hacker Clube nasce no Entorno de Brasília,
+                    inspirado pela cultura hacker e pela tradição do Quilombo
+                    do Mesquita, onde nasce a Cidade Ocidental.
+                </p>
+
+                <a href="#quem-somos" class="btn btn-dark btn-lg mt-3">
+                    Conheça o Marmelab
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- MANIFESTO -->
+<section class="manifesto">
+    <div class="container">
+
+        <div class="row justify-content-center">
+
+            <div class="col-lg-8">
+
+                <h2 class="display-5 fw-bold mb-5">
+                    Manifesto
+                </h2>
+
+                <p class="fs-4">
+                    O Marmelab Hacker Clube é um espaço aberto para aprender, criar e compartilhar. 
+                    Inspirados pela cultura hacker e pelo movimento do Software Livre, acreditamos 
+                    que o conhecimento deve ser livre, a tecnologia deve servir às pessoas e a 
+                    colaboração é o caminho para a inovação. O nome vem da inspiração do doce de marmelo, 
+                    que é produzido no Quilombo do Mesquita. Unimos tecnologia, arte, cultura e 
+                    participação cidadã para construir soluções que fortaleçam nossas comunidades, 
+                    promovam a autonomia digital e ampliem o acesso ao conhecimento. Mais do que consumir 
+                    tecnologia, queremos compreendê-la, transformá-la e colocá-la a serviço do bem comum.
+                </p>
+
+                <p class="fs-5">
+                    Acreditamos em conhecimento compartilhado, curiosidade,
+                    autonomia e liberdade para experimentar.
+                </p>
+
+                <p class="fs-5">
+                    O Marmelab é um espaço para pessoas que querem construir,
+                    desmontar, aprender e ensinar.
+                </p>
+
+                <p class="fs-5">
+                    Um lugar onde ideias podem virar código, hardware,
+                    projetos, encontros e novas possibilidades.
+                </p>
+
+                <p class="fs-5">
+                    Somos comunidade antes de sermos espaço físico.
+                    Somos colaboração antes de sermos tecnologia.
+                </p>
+
+                <p class="fs-4 fw-bold mt-5">
+                    Hackeie. Compartilhe. Construa.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- QUEM SOMOS -->
+<section id="quem-somos">
+    <div class="container">
+
+        <div class="row justify-content-center">
+            <div class="col-lg-9">
+
+                <h2 class="display-5 fw-bold mb-4">
+                    Quem somos
+                </h2>
+
+                <p class="lead">
+                    O Marmelab é uma comunidade independente dedicada à
+                    cultura hacker, tecnologia, conhecimento livre e
+                    construção coletiva.
+                </p>
+
+                <p>
+                    Nosso objetivo é criar um espaço onde pessoas possam
+                    experimentar novas tecnologias, desenvolver projetos,
+                    compartilhar conhecimento e criar conexões.
+                </p>
+
+                <h3 class="mt-5 mb-4">
+                    Cofundadores
+                </h3>
+
+                <div class="row g-4">
+
+                    <!-- Substitua pelos cofundadores -->
+
+                    <div class="col-md-4">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Ana Sabino
+                                </h5>
+
+                                <p class="card-text text-secondary">
+                                    Cofundadora
+                                </p>
+
+                                <a
+                                    href="https://www.linkedin.com/"
+                                    target="_blank"
+                                    class="btn btn-outline-dark btn-sm"
+                                >
+                                    LinkedIn
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Geovane Carvalho
+                                </h5>
+
+                                <p class="card-text text-secondary">
+                                    Cofundador
+                                </p>
+
+                                <a
+                                    href="https://www.linkedin.com/"
+                                    target="_blank"
+                                    class="btn btn-outline-dark btn-sm"
+                                >
+                                    LinkedIn
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Pedro Lucas
+                                </h5>
+
+                                <p class="card-text text-secondary">
+                                    Cofundador
+                                </p>
+
+                                <a
+                                    href="https://www.linkedin.com/"
+                                    target="_blank"
+                                    class="btn btn-outline-dark btn-sm"
+                                >
+                                    LinkedIn
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- CONTRIBUA -->
+<section id="contribua" class="bg-white">
+    <div class="container">
+
+        <div class="row align-items-center justify-content-center">
+
+            <div class="col-lg-6">
+
+                <h2 class="display-5 fw-bold mb-4">
+                    Contribua
+                </h2>
+
+                <p class="lead">
+                    O Marmelab é construído pela comunidade.
+                </p>
+
+                <p>
+                    Se você acredita nessa ideia, pode contribuir para
+                    manter o espaço funcionando, comprar equipamentos,
+                    organizar atividades e ampliar nossa comunidade.
+                </p>
+
+                <a
+                    href="https://apoia.se/marmelab"
+                    target="_blank"
+                    class="btn btn-dark btn-lg mt-3"
+                >
+                    Apoie o Marmelab
+                </a>
+
+            </div>
+
+            <div class="col-lg-4 text-center mt-5 mt-lg-0">
+
+                <img
+                    src="images/qrcode.jpg"
+                    alt="QR Code para apoiar o Marmelab"
+                    class="img-fluid qr-code"
+                >
+
+                <p class="text-secondary mt-3">
+                    Aponte a câmera do celular para contribuir.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- SEDE -->
+<section id="sede">
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-lg-5">
+
+                <h2 class="display-5 fw-bold mb-4">
+                    Nossa sede
+                </h2>
+
+                <p class="lead">
+                    É aqui que a comunidade se encontra.
+                </p>
+
+                <p>
+                    <strong>Marmelab Hacker Clube</strong>
+                </p>
+
+                <p>
+                    SQ 09 Quadra 02 Lote 04, centro<br>
+                    Cidade Ocidental - GO<br>
+                    Brasil
+                </p>
+
+            </div>
+
+            <div class="col-lg-7 mt-4 mt-lg-0">
+
+                <div class="ratio ratio-16x9">
+                    <iframe
+                        src="https://www.google.com/maps?q=Marmelab+Hacker+Clube&output=embed"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white">
+    <div class="container text-center">
+
+        <p class="mb-1 fw-bold">
+            Marmelab Hacker Clube
+        </p>
+
+        <p class="mb-0 text-secondary">
+            Tecnologia, cultura e comunidade.
+        </p>
+
+    </div>
+</footer>
+
+
+<!-- Bootstrap JS -->
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+</script>
+
 </body>
 </html>
+```
