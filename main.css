@@ -1,0 +1,63 @@
+html {
+    scroll-behavior: smooth;
+    --marrom-800: #4D1703;
+    --marrom-900: #3a1102;
+    --marrom-500: #9A6F45;
+    --verde-700: #28d33e;
+    --verde-500: #50BE5F;
+    --verde-100: #69cc76;
+    --amarelo-900: #FDC301;
+    --amarelo-800: #ffd037;
+    --amarelo-400: #FEE15E;
+    --amarelo-200: #f1e255;
+    --amarelo-100: #f7f4d3;
+    --branco: #FCF8EF;
+}
+.btn-theme {
+     : right;
+}
+
+body {
+    background: var(--amarelo-100);
+    color: var(--marrom-900);
+}
+
+.btn-quem-somos {
+    background-color: var(--amarelo-800);
+    color: var(--marrom-900);
+}
+
+section {
+    padding: 90px 0;
+}
+
+.display-2 {
+    font-size: 90px;
+    
+
+}
+
+.hero {
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+}
+
+.card-body{
+    background: var(--verde-700);
+}
+
+.manifesto {
+    background: var(--marrom-800);
+    color: white;
+}
+
+.contribua
+
+.qr-code {
+    max-width: 220px;
+}
+
+footer {
+    padding: 30px 0;
+}
