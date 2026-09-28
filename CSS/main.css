@@ -14,7 +14,10 @@ html {
     --branco: #FCF8EF;
 }
 .btn-theme {
-     : right;
+    position : right;
+    padding: 0 1 0 0;
+    border-radius: 5px;
+    
 }
 
 body {
