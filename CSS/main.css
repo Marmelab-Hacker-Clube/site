@@ -30,11 +30,17 @@ body {
     justify-self: right;
 }
 
-.navbar {
-    background: white;
+.light-theme .navbar {
+    background: var(--branco);
     border-bottom: 1px solid gray;
 }
 
+.dark-theme .navbar {
+    background: var(--preto);
+    border-bottom: 1px solid gray;
+    color: var(--branco);
+
+}
 .navbar > .container {
     justify-content: end;
 }
