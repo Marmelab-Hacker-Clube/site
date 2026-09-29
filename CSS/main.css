@@ -87,10 +87,6 @@ section {
     padding: 10px;
 }
 
-.col-md-5 {
-    padding: 10px;
-}
-
 #quem-somos {
     background: var(--amarelo-100);
     color: var(--marrom-900);
